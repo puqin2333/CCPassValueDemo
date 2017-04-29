@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74404FA71EB489FA008E9C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74404FA61EB489FA008E9C78 /* main.m */; };
+		74404FAA1EB489FA008E9C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74404FA91EB489FA008E9C78 /* AppDelegate.m */; };
+		74404FAD1EB489FA008E9C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74404FAC1EB489FA008E9C78 /* ViewController.m */; };
+		74404FB01EB489FA008E9C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74404FAE1EB489FA008E9C78 /* Main.storyboard */; };
+		74404FB31EB489FA008E9C78 /* CCPassValueDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74404FB11EB489FA008E9C78 /* CCPassValueDemo.xcdatamodeld */; };
+		74404FB51EB489FA008E9C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74404FB41EB489FA008E9C78 /* Assets.xcassets */; };
+		74404FB81EB489FA008E9C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74404FB61EB489FA008E9C78 /* LaunchScreen.storyboard */; };
+		74404FC31EB489FB008E9C78 /* CCPassValueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74404FC21EB489FB008E9C78 /* CCPassValueDemoTests.m */; };
+		74404FCE1EB489FB008E9C78 /* CCPassValueDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74404FCD1EB489FB008E9C78 /* CCPassValueDemoUITests.m */; };
+		744050121EB49C68008E9C78 /* PropertyControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050111EB49C68008E9C78 /* PropertyControllerA.m */; };
+		744050161EB49CD9008E9C78 /* PropertyControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050151EB49CD9008E9C78 /* PropertyControllerB.m */; };
+		7440501A1EB49D28008E9C78 /* DelegateControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050191EB49D28008E9C78 /* DelegateControllerA.m */; };
+		7440501D1EB49D4D008E9C78 /* DelegateControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440501C1EB49D4D008E9C78 /* DelegateControllerB.m */; };
+		744050211EB49D7F008E9C78 /* BlockControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050201EB49D7F008E9C78 /* BlockControllerA.m */; };
+		744050241EB49D96008E9C78 /* BlockControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050231EB49D96008E9C78 /* BlockControllerB.m */; };
+		744050281EB49DC8008E9C78 /* SingletonControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050271EB49DC8008E9C78 /* SingletonControllerA.m */; };
+		7440502B1EB49DDB008E9C78 /* SIngletonViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440502A1EB49DDB008E9C78 /* SIngletonViewControllerB.m */; };
+		7440502F1EB49E17008E9C78 /* NotificationControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440502E1EB49E17008E9C78 /* NotificationControllerA.m */; };
+		744050321EB49E25008E9C78 /* NotificationControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050311EB49E25008E9C78 /* NotificationControllerB.m */; };
+		744050351EB4D01B008E9C78 /* ValuePass.m in Sources */ = {isa = PBXBuildFile; fileRef = 744050341EB4D01B008E9C78 /* ValuePass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74404FBF1EB489FB008E9C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74404F9A1EB489FA008E9C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74404FA11EB489FA008E9C78;
+			remoteInfo = CCPassValueDemo;
+		};
+		74404FCA1EB489FB008E9C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74404F9A1EB489FA008E9C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74404FA11EB489FA008E9C78;
+			remoteInfo = CCPassValueDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74404FA21EB489FA008E9C78 /* CCPassValueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPassValueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74404FA61EB489FA008E9C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74404FA81EB489FA008E9C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74404FA91EB489FA008E9C78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74404FAB1EB489FA008E9C78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74404FAC1EB489FA008E9C78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74404FAF1EB489FA008E9C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74404FB21EB489FA008E9C78 /* CCPassValueDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCPassValueDemo.xcdatamodel; sourceTree = "<group>"; };
+		74404FB41EB489FA008E9C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74404FB71EB489FA008E9C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74404FB91EB489FA008E9C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74404FBE1EB489FB008E9C78 /* CCPassValueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPassValueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74404FC21EB489FB008E9C78 /* CCPassValueDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPassValueDemoTests.m; sourceTree = "<group>"; };
+		74404FC41EB489FB008E9C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74404FC91EB489FB008E9C78 /* CCPassValueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPassValueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74404FCD1EB489FB008E9C78 /* CCPassValueDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPassValueDemoUITests.m; sourceTree = "<group>"; };
+		74404FCF1EB489FB008E9C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744050101EB49C68008E9C78 /* PropertyControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropertyControllerA.h; path = ../PropertyControllerA.h; sourceTree = "<group>"; };
+		744050111EB49C68008E9C78 /* PropertyControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropertyControllerA.m; path = ../PropertyControllerA.m; sourceTree = "<group>"; };
+		744050141EB49CD9008E9C78 /* PropertyControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyControllerB.h; sourceTree = "<group>"; };
+		744050151EB49CD9008E9C78 /* PropertyControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyControllerB.m; sourceTree = "<group>"; };
+		744050181EB49D28008E9C78 /* DelegateControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateControllerA.h; sourceTree = "<group>"; };
+		744050191EB49D28008E9C78 /* DelegateControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateControllerA.m; sourceTree = "<group>"; };
+		7440501B1EB49D4D008E9C78 /* DelegateControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateControllerB.h; sourceTree = "<group>"; };
+		7440501C1EB49D4D008E9C78 /* DelegateControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateControllerB.m; sourceTree = "<group>"; };
+		7440501F1EB49D7F008E9C78 /* BlockControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockControllerA.h; sourceTree = "<group>"; };
+		744050201EB49D7F008E9C78 /* BlockControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockControllerA.m; sourceTree = "<group>"; };
+		744050221EB49D96008E9C78 /* BlockControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockControllerB.h; sourceTree = "<group>"; };
+		744050231EB49D96008E9C78 /* BlockControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockControllerB.m; sourceTree = "<group>"; };
+		744050261EB49DC8008E9C78 /* SingletonControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonControllerA.h; sourceTree = "<group>"; };
+		744050271EB49DC8008E9C78 /* SingletonControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonControllerA.m; sourceTree = "<group>"; };
+		744050291EB49DDB008E9C78 /* SIngletonViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIngletonViewControllerB.h; sourceTree = "<group>"; };
+		7440502A1EB49DDB008E9C78 /* SIngletonViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIngletonViewControllerB.m; sourceTree = "<group>"; };
+		7440502D1EB49E17008E9C78 /* NotificationControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationControllerA.h; sourceTree = "<group>"; };
+		7440502E1EB49E17008E9C78 /* NotificationControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationControllerA.m; sourceTree = "<group>"; };
+		744050301EB49E25008E9C78 /* NotificationControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationControllerB.h; sourceTree = "<group>"; };
+		744050311EB49E25008E9C78 /* NotificationControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationControllerB.m; sourceTree = "<group>"; };
+		744050331EB4D01B008E9C78 /* ValuePass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuePass.h; sourceTree = "<group>"; };
+		744050341EB4D01B008E9C78 /* ValuePass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValuePass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74404F9F1EB489FA008E9C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FBB1EB489FB008E9C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FC61EB489FB008E9C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74404F991EB489FA008E9C78 = {
+			isa = PBXGroup;
+			children = (
+				74404FA41EB489FA008E9C78 /* CCPassValueDemo */,
+				74404FC11EB489FB008E9C78 /* CCPassValueDemoTests */,
+				74404FCC1EB489FB008E9C78 /* CCPassValueDemoUITests */,
+				74404FA31EB489FA008E9C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74404FA31EB489FA008E9C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74404FA21EB489FA008E9C78 /* CCPassValueDemo.app */,
+				74404FBE1EB489FB008E9C78 /* CCPassValueDemoTests.xctest */,
+				74404FC91EB489FB008E9C78 /* CCPassValueDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74404FA41EB489FA008E9C78 /* CCPassValueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7440502C1EB49E01008E9C78 /* NotificationValue */,
+				744050251EB49DB4008E9C78 /* SingletonValue */,
+				7440501E1EB49D6B008E9C78 /* BlockValue */,
+				744050171EB49D0B008E9C78 /* DelegateValue */,
+				744050131EB49C93008E9C78 /* PropertyValue */,
+				74404FA81EB489FA008E9C78 /* AppDelegate.h */,
+				74404FA91EB489FA008E9C78 /* AppDelegate.m */,
+				74404FAB1EB489FA008E9C78 /* ViewController.h */,
+				74404FAC1EB489FA008E9C78 /* ViewController.m */,
+				74404FAE1EB489FA008E9C78 /* Main.storyboard */,
+				74404FB41EB489FA008E9C78 /* Assets.xcassets */,
+				74404FB61EB489FA008E9C78 /* LaunchScreen.storyboard */,
+				74404FB91EB489FA008E9C78 /* Info.plist */,
+				74404FB11EB489FA008E9C78 /* CCPassValueDemo.xcdatamodeld */,
+				74404FA51EB489FA008E9C78 /* Supporting Files */,
+			);
+			path = CCPassValueDemo;
+			sourceTree = "<group>";
+		};
+		74404FA51EB489FA008E9C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74404FA61EB489FA008E9C78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74404FC11EB489FB008E9C78 /* CCPassValueDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74404FC21EB489FB008E9C78 /* CCPassValueDemoTests.m */,
+				74404FC41EB489FB008E9C78 /* Info.plist */,
+			);
+			path = CCPassValueDemoTests;
+			sourceTree = "<group>";
+		};
+		74404FCC1EB489FB008E9C78 /* CCPassValueDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74404FCD1EB489FB008E9C78 /* CCPassValueDemoUITests.m */,
+				74404FCF1EB489FB008E9C78 /* Info.plist */,
+			);
+			path = CCPassValueDemoUITests;
+			sourceTree = "<group>";
+		};
+		744050131EB49C93008E9C78 /* PropertyValue */ = {
+			isa = PBXGroup;
+			children = (
+				744050101EB49C68008E9C78 /* PropertyControllerA.h */,
+				744050111EB49C68008E9C78 /* PropertyControllerA.m */,
+				744050141EB49CD9008E9C78 /* PropertyControllerB.h */,
+				744050151EB49CD9008E9C78 /* PropertyControllerB.m */,
+			);
+			path = PropertyValue;
+			sourceTree = "<group>";
+		};
+		744050171EB49D0B008E9C78 /* DelegateValue */ = {
+			isa = PBXGroup;
+			children = (
+				744050181EB49D28008E9C78 /* DelegateControllerA.h */,
+				744050191EB49D28008E9C78 /* DelegateControllerA.m */,
+				7440501B1EB49D4D008E9C78 /* DelegateControllerB.h */,
+				7440501C1EB49D4D008E9C78 /* DelegateControllerB.m */,
+			);
+			path = DelegateValue;
+			sourceTree = "<group>";
+		};
+		7440501E1EB49D6B008E9C78 /* BlockValue */ = {
+			isa = PBXGroup;
+			children = (
+				7440501F1EB49D7F008E9C78 /* BlockControllerA.h */,
+				744050201EB49D7F008E9C78 /* BlockControllerA.m */,
+				744050221EB49D96008E9C78 /* BlockControllerB.h */,
+				744050231EB49D96008E9C78 /* BlockControllerB.m */,
+			);
+			path = BlockValue;
+			sourceTree = "<group>";
+		};
+		744050251EB49DB4008E9C78 /* SingletonValue */ = {
+			isa = PBXGroup;
+			children = (
+				744050261EB49DC8008E9C78 /* SingletonControllerA.h */,
+				744050271EB49DC8008E9C78 /* SingletonControllerA.m */,
+				744050291EB49DDB008E9C78 /* SIngletonViewControllerB.h */,
+				7440502A1EB49DDB008E9C78 /* SIngletonViewControllerB.m */,
+				744050331EB4D01B008E9C78 /* ValuePass.h */,
+				744050341EB4D01B008E9C78 /* ValuePass.m */,
+			);
+			path = SingletonValue;
+			sourceTree = "<group>";
+		};
+		7440502C1EB49E01008E9C78 /* NotificationValue */ = {
+			isa = PBXGroup;
+			children = (
+				7440502D1EB49E17008E9C78 /* NotificationControllerA.h */,
+				7440502E1EB49E17008E9C78 /* NotificationControllerA.m */,
+				744050301EB49E25008E9C78 /* NotificationControllerB.h */,
+				744050311EB49E25008E9C78 /* NotificationControllerB.m */,
+			);
+			path = NotificationValue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74404FA11EB489FA008E9C78 /* CCPassValueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74404FD21EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemo" */;
+			buildPhases = (
+				74404F9E1EB489FA008E9C78 /* Sources */,
+				74404F9F1EB489FA008E9C78 /* Frameworks */,
+				74404FA01EB489FA008E9C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCPassValueDemo;
+			productName = CCPassValueDemo;
+			productReference = 74404FA21EB489FA008E9C78 /* CCPassValueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74404FBD1EB489FB008E9C78 /* CCPassValueDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74404FD51EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemoTests" */;
+			buildPhases = (
+				74404FBA1EB489FB008E9C78 /* Sources */,
+				74404FBB1EB489FB008E9C78 /* Frameworks */,
+				74404FBC1EB489FB008E9C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74404FC01EB489FB008E9C78 /* PBXTargetDependency */,
+			);
+			name = CCPassValueDemoTests;
+			productName = CCPassValueDemoTests;
+			productReference = 74404FBE1EB489FB008E9C78 /* CCPassValueDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74404FC81EB489FB008E9C78 /* CCPassValueDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74404FD81EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemoUITests" */;
+			buildPhases = (
+				74404FC51EB489FB008E9C78 /* Sources */,
+				74404FC61EB489FB008E9C78 /* Frameworks */,
+				74404FC71EB489FB008E9C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74404FCB1EB489FB008E9C78 /* PBXTargetDependency */,
+			);
+			name = CCPassValueDemoUITests;
+			productName = CCPassValueDemoUITests;
+			productReference = 74404FC91EB489FB008E9C78 /* CCPassValueDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74404F9A1EB489FA008E9C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "PuChin·chen";
+				TargetAttributes = {
+					74404FA11EB489FA008E9C78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					74404FBD1EB489FB008E9C78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74404FA11EB489FA008E9C78;
+					};
+					74404FC81EB489FB008E9C78 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74404FA11EB489FA008E9C78;
+					};
+				};
+			};
+			buildConfigurationList = 74404F9D1EB489FA008E9C78 /* Build configuration list for PBXProject "CCPassValueDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74404F991EB489FA008E9C78;
+			productRefGroup = 74404FA31EB489FA008E9C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74404FA11EB489FA008E9C78 /* CCPassValueDemo */,
+				74404FBD1EB489FB008E9C78 /* CCPassValueDemoTests */,
+				74404FC81EB489FB008E9C78 /* CCPassValueDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74404FA01EB489FA008E9C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74404FB81EB489FA008E9C78 /* LaunchScreen.storyboard in Resources */,
+				74404FB51EB489FA008E9C78 /* Assets.xcassets in Resources */,
+				74404FB01EB489FA008E9C78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FBC1EB489FB008E9C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FC71EB489FB008E9C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74404F9E1EB489FA008E9C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74404FAD1EB489FA008E9C78 /* ViewController.m in Sources */,
+				7440501D1EB49D4D008E9C78 /* DelegateControllerB.m in Sources */,
+				744050281EB49DC8008E9C78 /* SingletonControllerA.m in Sources */,
+				744050211EB49D7F008E9C78 /* BlockControllerA.m in Sources */,
+				744050121EB49C68008E9C78 /* PropertyControllerA.m in Sources */,
+				74404FAA1EB489FA008E9C78 /* AppDelegate.m in Sources */,
+				74404FA71EB489FA008E9C78 /* main.m in Sources */,
+				744050321EB49E25008E9C78 /* NotificationControllerB.m in Sources */,
+				744050351EB4D01B008E9C78 /* ValuePass.m in Sources */,
+				7440502F1EB49E17008E9C78 /* NotificationControllerA.m in Sources */,
+				74404FB31EB489FA008E9C78 /* CCPassValueDemo.xcdatamodeld in Sources */,
+				744050161EB49CD9008E9C78 /* PropertyControllerB.m in Sources */,
+				7440502B1EB49DDB008E9C78 /* SIngletonViewControllerB.m in Sources */,
+				744050241EB49D96008E9C78 /* BlockControllerB.m in Sources */,
+				7440501A1EB49D28008E9C78 /* DelegateControllerA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FBA1EB489FB008E9C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74404FC31EB489FB008E9C78 /* CCPassValueDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74404FC51EB489FB008E9C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74404FCE1EB489FB008E9C78 /* CCPassValueDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74404FC01EB489FB008E9C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74404FA11EB489FA008E9C78 /* CCPassValueDemo */;
+			targetProxy = 74404FBF1EB489FB008E9C78 /* PBXContainerItemProxy */;
+		};
+		74404FCB1EB489FB008E9C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74404FA11EB489FA008E9C78 /* CCPassValueDemo */;
+			targetProxy = 74404FCA1EB489FB008E9C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74404FAE1EB489FA008E9C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74404FAF1EB489FA008E9C78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74404FB61EB489FA008E9C78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74404FB71EB489FA008E9C78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74404FD01EB489FB008E9C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74404FD11EB489FB008E9C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74404FD31EB489FB008E9C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPassValueDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74404FD41EB489FB008E9C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPassValueDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74404FD61EB489FB008E9C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPassValueDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPassValueDemo.app/CCPassValueDemo";
+			};
+			name = Debug;
+		};
+		74404FD71EB489FB008E9C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPassValueDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPassValueDemo.app/CCPassValueDemo";
+			};
+			name = Release;
+		};
+		74404FD91EB489FB008E9C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPassValueDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPassValueDemo;
+			};
+			name = Debug;
+		};
+		74404FDA1EB489FB008E9C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPassValueDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PuChin.CCPassValueDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPassValueDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74404F9D1EB489FA008E9C78 /* Build configuration list for PBXProject "CCPassValueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74404FD01EB489FB008E9C78 /* Debug */,
+				74404FD11EB489FB008E9C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74404FD21EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74404FD31EB489FB008E9C78 /* Debug */,
+				74404FD41EB489FB008E9C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74404FD51EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74404FD61EB489FB008E9C78 /* Debug */,
+				74404FD71EB489FB008E9C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74404FD81EB489FB008E9C78 /* Build configuration list for PBXNativeTarget "CCPassValueDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74404FD91EB489FB008E9C78 /* Debug */,
+				74404FDA1EB489FB008E9C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74404FB11EB489FA008E9C78 /* CCPassValueDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74404FB21EB489FA008E9C78 /* CCPassValueDemo.xcdatamodel */,
+			);
+			currentVersion = 74404FB21EB489FA008E9C78 /* CCPassValueDemo.xcdatamodel */;
+			path = CCPassValueDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74404F9A1EB489FA008E9C78 /* Project object */;
+}
